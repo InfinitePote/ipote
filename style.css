@@ -89,17 +89,17 @@ section {
     z-index: 0;
 
 
-    -webkit-mask-image: radial-gradient(
-        ellipse at center,
-        black 55%,
-        transparent 85%
-    );
+   -webkit-mask-image: radial-gradient(
+    ellipse at center,
+    black 35%,
+    transparent 90%
+);
 
-    mask-image: radial-gradient(
-        ellipse at center,
-        black 55%,
-        transparent 85%
-    );
+mask-image: radial-gradient(
+    ellipse at center,
+    black 35%,
+    transparent 90%
+);
 
 }
 .cloud-video {
