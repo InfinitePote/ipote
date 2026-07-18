@@ -84,19 +84,19 @@ section {
     z-index: 0;
 
 
-    -webkit-mask-image: radial-gradient(
-        ellipse at center,
-        black 35%,
-        rgba(0,0,0,0.7) 60%,
-        transparent 95%
-    );
+   -webkit-mask-image: radial-gradient(
+    ellipse at center,
+    black 20%,
+    rgba(0,0,0,0.6) 45%,
+    transparent 75%
+);
 
-    mask-image: radial-gradient(
-        ellipse at center,
-        black 35%,
-        rgba(0,0,0,0.7) 60%,
-        transparent 95%
-    );
+mask-image: radial-gradient(
+    ellipse at center,
+    black 20%,
+    rgba(0,0,0,0.6) 45%,
+    transparent 75%
+);
 
 }
 
