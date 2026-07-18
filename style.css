@@ -53,19 +53,20 @@ section {
 
     position: absolute;
 
-    top: 0;
+    top: -80px;
 
     left: 50%;
 
     transform: translateX(-50%);
 
-    width: 100%;
+    width: 900px;
 
-    max-width: 1200px;
+    max-width: 90%;
 
-    opacity: 0.85;
+    opacity: 0.75;
 
     z-index: 0;
+
 
 }
 
@@ -73,11 +74,16 @@ section {
 
 .logo {
 
-    width: 170px;
+    width: 320px;
 
-    margin-bottom: 40px;
+    max-width: 60vw;
 
-    z-index: 1;
+    margin-bottom: 50px;
+
+    z-index: 2;
+
+    position: relative;
+
 
 }
 
@@ -229,14 +235,18 @@ padding:80px 20px;
 
 p {
 
-font-size:18px;
-
+font-size: clamp(80px, 12vw, 160px);
 }
 
 
-.hero h1 {
+.hero h1,
+.hero h2,
+.hero p,
+.hero .button {
 
-letter-spacing:8px;
+    position: relative;
+
+    z-index: 2;
 
 }
 
