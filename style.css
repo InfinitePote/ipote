@@ -89,16 +89,20 @@ section {
     z-index: 0;
 
 
-   -webkit-mask-image: radial-gradient(
-    ellipse at center,
-    black 35%,
-    transparent 90%
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 18%,
+    black 82%,
+    transparent 100%
 );
 
-mask-image: radial-gradient(
-    ellipse at center,
-    black 35%,
-    transparent 90%
+mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 18%,
+    black 82%,
+    transparent 100%
 );
 
 }
