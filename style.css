@@ -36,6 +36,9 @@ section {
 
     align-items: center;
 
+    text-align: center;
+
+}
 }
 
 
@@ -46,12 +49,17 @@ section {
 
     overflow: hidden;
 
-    background:
-    radial-gradient(
-        circle at center,
-        rgba(255,255,255,0.35),
-        transparent 55%
-    );
+    min-height: 1200px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
 
 }
 }
@@ -62,19 +70,21 @@ section {
 
     position: absolute;
 
-    top: 650px;
+    top: 520px;
 
     left: 50%;
 
     transform: translateX(-50%);
 
-    width: 900px;
+    width: 1100px;
 
-    max-width: 100%;
+    max-width: none;
 
-    opacity: 0.5;
+    opacity: 0.55;
 
     z-index: 0;
+
+}
 
 
 }
@@ -114,7 +124,18 @@ h3 {
     font-family: "Cinzel", serif;
 
     font-weight: 500;
+    
+.hero .logo,
+.hero h1,
+.hero h2,
+.hero p,
+.hero .button {
 
+    position: relative;
+
+    z-index: 3;
+
+}
 }
 
 
