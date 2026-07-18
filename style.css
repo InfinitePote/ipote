@@ -69,7 +69,7 @@ section {
 
     position: absolute;
 
-    top: 350px;
+    top: 250px;
 
     left: 50%;
 
@@ -84,19 +84,22 @@ section {
     z-index: 0;
 
 
-    -webkit-mask-image: radial-gradient(
-        ellipse at center,
-        black 35%,
-        transparent 90%
-    );
+    -webkit-mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    black 15%,
+    black 80%,
+    transparent 100%
+);
 
-    mask-image: radial-gradient(
-        ellipse at center,
-        black 35%,
-        transparent 90%
-    );
-
-}
+mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    black 15%,
+    black 80%,
+    transparent 100%
+);
+ }   
 
 
 
