@@ -384,3 +384,56 @@ p {
 }
 
 }
+/* FINAL VISION FIX */
+
+#vision {
+    text-align: center;
+}
+
+
+#vision h2 {
+
+    font-family: "Cinzel", serif;
+
+    font-size: 90px !important;
+
+    letter-spacing: 10px;
+
+    margin-bottom: 50px;
+
+}
+
+
+
+#vision img.vision-cover {
+
+    width: 300px !important;
+
+    max-width: 300px !important;
+
+    height: auto !important;
+
+    display: block;
+
+    margin: 40px auto 60px auto;
+
+    border-radius: 8px;
+
+    box-shadow:
+    0 25px 50px rgba(70,50,30,0.25);
+
+}
+
+
+
+.paper-link {
+
+    font-family: "Cinzel", serif;
+
+    font-size: 22px;
+
+    display: block;
+
+    margin: 25px;
+
+}
