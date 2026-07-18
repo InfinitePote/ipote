@@ -74,30 +74,31 @@ section {
 
     position: absolute;
 
-    top: 520px;
+    top: 350px;
 
     left: 50%;
 
     transform: translateX(-50%);
 
-    width: 1500px;
+    width: 1150px;
 
-    max-width: none;
+    max-width: 100%;
 
     opacity: 0.65;
 
     z-index: 0;
 
+
     -webkit-mask-image: radial-gradient(
         ellipse at center,
-        black 45%,
-        transparent 75%
+        black 55%,
+        transparent 85%
     );
 
     mask-image: radial-gradient(
         ellipse at center,
-        black 45%,
-        transparent 75%
+        black 55%,
+        transparent 85%
     );
 
 }
