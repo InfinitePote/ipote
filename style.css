@@ -67,36 +67,34 @@ section {
 
 .cloud-video {
 
+
     position: absolute;
 
-    top: 250px;
+    top: 520px;
 
     left: 50%;
 
     transform: translateX(-50%);
 
-    width: 1600px;
+    width: 1500px;
 
     max-width: none;
 
-    opacity: 0.60;
+    opacity: 0.65;
 
     z-index: 0;
 
+    -webkit-mask-image: radial-gradient(
+        ellipse at center,
+        black 45%,
+        transparent 75%
+    );
 
-   -webkit-mask-image: radial-gradient(
-    ellipse at center,
-    black 20%,
-    rgba(0,0,0,0.6) 45%,
-    transparent 90%
-);
-
-mask-image: radial-gradient(
-    ellipse at center,
-    black 20%,
-    rgba(0,0,0,0.6) 45%,
-    transparent 90%
-);
+    mask-image: radial-gradient(
+        ellipse at center,
+        black 45%,
+        transparent 75%
+    );
 
 }
 
