@@ -578,7 +578,7 @@ p {
 
 }
 /* =====================
-   JOURNEY FINAL
+   JOURNEY
 ===================== */
 
 
@@ -610,7 +610,7 @@ p {
 
     transform: translate(-50%, -50%);
 
-    width: 1400px;
+    width: 1500px;
 
     max-width: none;
 
@@ -618,16 +618,18 @@ p {
 
     z-index: 0;
 
+    pointer-events: none;
+
 
     -webkit-mask-image: radial-gradient(
         ellipse at center,
-        black 30%,
+        black 25%,
         transparent 85%
     );
 
     mask-image: radial-gradient(
         ellipse at center,
-        black 30%,
+        black 25%,
         transparent 85%
     );
 
@@ -639,7 +641,9 @@ p {
 
     position: relative;
 
-    z-index: 5;
+    z-index: 10;
+
+    text-align: center;
 
     max-width: 900px;
 
@@ -651,11 +655,11 @@ p {
 
     font-family: "Cinzel", serif;
 
-    font-size: clamp(60px, 8vw, 100px);
+    font-size: clamp(70px, 9vw, 110px);
 
-    letter-spacing: 10px;
+    letter-spacing: 12px;
 
-    margin-bottom: 70px;
+    margin-bottom: 80px;
 
 }
 
@@ -665,25 +669,15 @@ p {
 
     font-family: "Cinzel", serif;
 
-    font-size: 32px;
+    font-size: 34px;
 
 }
 
 
 
-.genesis-box {
+#journey h3 {
 
     margin-top: 100px;
-
-    padding: 50px;
-
-    border: 1px solid rgba(199,163,74,0.5);
-
-}
-
-
-
-.genesis-box h3 {
 
     font-size: 38px;
 
@@ -693,22 +687,22 @@ p {
 
 
 
-.genesis-box h4 {
+#journey h4 {
 
-    font-family: "Cinzel", serif;
+    margin-top: 25px;
 
-    font-size: 28px;
+    font-size: 30px;
 
     color: #c7a34a;
 
-    margin: 25px 0;
+    font-family: "Cinzel", serif;
 
 }
 
 
 
-.genesis-box p {
+#journey p {
 
-    font-size: 22px;
+    margin: 25px auto;
 
 }
