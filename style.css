@@ -48,9 +48,23 @@ section {
 
     position: relative;
 
+    min-height: 1100px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
     overflow: hidden;
 
-    min-height: 1100px;
+    mask-image: linear-gradient(
+        to bottom,
+        transparent 0%,
+        black 15%,
+        black 85%,
+        transparent 100%
+    );
 
 }
 
@@ -60,17 +74,17 @@ section {
 
     position: absolute;
 
-    top: 500px;
+    top: 520px;
 
     left: 50%;
 
     transform: translateX(-50%);
 
-    width: 1000px;
+    width: 1500px;
 
-    max-width: 110%;
+    max-width: none;
 
-    opacity: 0.45;
+    opacity: 0.55;
 
     z-index: 0;
 
