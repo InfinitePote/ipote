@@ -577,3 +577,138 @@ p {
     );
 
 }
+/* =====================
+   JOURNEY FINAL
+===================== */
+
+
+#journey {
+
+    position: relative;
+
+    min-height: 100vh;
+
+    overflow: hidden;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+
+
+.journey-video {
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: 1400px;
+
+    max-width: none;
+
+    opacity: 0.35;
+
+    z-index: 0;
+
+
+    -webkit-mask-image: radial-gradient(
+        ellipse at center,
+        black 30%,
+        transparent 85%
+    );
+
+    mask-image: radial-gradient(
+        ellipse at center,
+        black 30%,
+        transparent 85%
+    );
+
+}
+
+
+
+.journey-content {
+
+    position: relative;
+
+    z-index: 5;
+
+    max-width: 900px;
+
+}
+
+
+
+#journey h2 {
+
+    font-family: "Cinzel", serif;
+
+    font-size: clamp(60px, 8vw, 100px);
+
+    letter-spacing: 10px;
+
+    margin-bottom: 70px;
+
+}
+
+
+
+.journey-main {
+
+    font-family: "Cinzel", serif;
+
+    font-size: 32px;
+
+}
+
+
+
+.genesis-box {
+
+    margin-top: 100px;
+
+    padding: 50px;
+
+    border: 1px solid rgba(199,163,74,0.5);
+
+}
+
+
+
+.genesis-box h3 {
+
+    font-size: 38px;
+
+    letter-spacing: 5px;
+
+}
+
+
+
+.genesis-box h4 {
+
+    font-family: "Cinzel", serif;
+
+    font-size: 28px;
+
+    color: #c7a34a;
+
+    margin: 25px 0;
+
+}
+
+
+
+.genesis-box p {
+
+    font-size: 22px;
+
+}
