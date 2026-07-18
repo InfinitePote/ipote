@@ -488,3 +488,6 @@ p {
     letter-spacing: 4px;
 
 }
+#vision p:last-of-type {
+    margin-bottom: 100px !important;
+}
