@@ -75,7 +75,7 @@ section {
 
     transform: translateX(-50%);
 
-    width: 1250px;
+    width: 1600px;
 
     max-width: none;
 
@@ -88,14 +88,14 @@ section {
     ellipse at center,
     black 20%,
     rgba(0,0,0,0.6) 45%,
-    transparent 75%
+    transparent 90%
 );
 
 mask-image: radial-gradient(
     ellipse at center,
     black 20%,
     rgba(0,0,0,0.6) 45%,
-    transparent 75%
+    transparent 90%
 );
 
 }
