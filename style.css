@@ -437,3 +437,41 @@ p {
     margin: 25px;
 
 }
+/* VISION COVER SIZE */
+
+#vision {
+
+    text-align: center;
+
+}
+
+
+#vision h2 {
+
+    font-family: "Cinzel", serif;
+
+    font-size: 90px;
+
+    letter-spacing: 10px;
+
+    margin-bottom: 60px;
+
+}
+
+
+#vision .vision-cover {
+
+    width: 300px;
+
+    height: auto;
+
+    margin: 0 auto 70px auto;
+
+    display: block;
+
+    border-radius: 8px;
+
+    box-shadow:
+        0 25px 50px rgba(70,50,30,0.25);
+
+}
