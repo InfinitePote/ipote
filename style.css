@@ -7,15 +7,16 @@
 
 body {
 
-    background: #f8f3ea;
+    background: linear-gradient(
+        180deg,
+        #eee8e1 0%,
+        #e6dfd7 45%,
+        #e0dad4 100%
+    );
 
     color: #1c1b18;
 
-    font-family: "Alice", serif;
-
-    text-align: center;
-
-    line-height: 1.8;
+}
 
 }
 
@@ -45,6 +46,14 @@ section {
 
     overflow: hidden;
 
+    background:
+    radial-gradient(
+        circle at center,
+        rgba(255,255,255,0.35),
+        transparent 55%
+    );
+
+}
 }
 
 
@@ -53,19 +62,20 @@ section {
 
     position: absolute;
 
-    top: 50%;
+    top: 650px;
 
     left: 50%;
 
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
 
-    width: 1000px;
+    width: 900px;
 
-    max-width: 120%;
+    max-width: 100%;
 
-    opacity: 0.18;
+    opacity: 0.5;
 
     z-index: 0;
+
 
 }
 
@@ -76,18 +86,22 @@ section {
 
 .logo {
 
-    width: 260px;
+    width: 300px;
 
-    max-width: 70vw;
+    max-width: 65vw;
 
-    margin-bottom: 40px;
+    margin-bottom: 90px;
 
     position: relative;
 
-    z-index: 2;
+    z-index: 5;
 
-    filter: drop-shadow(0 10px 25px rgba(0,0,0,0.08));
+      filter:
+    drop-shadow(
+    0 30px 40px rgba(70,50,30,0.15)
+    );
 
+}
 
 }
 
@@ -205,6 +219,9 @@ p {
 
     max-width: 900px;
 
+    background:#e0dad4;
+
+}
 }
 
 
@@ -250,8 +267,9 @@ font-size: clamp(80px, 12vw, 160px);
 
     position: relative;
 
-    z-index: 2;
+    z-index: 3;
 
+}
 }
 
 
