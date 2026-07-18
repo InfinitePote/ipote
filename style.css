@@ -506,3 +506,76 @@ p {
     );
 
 }
+/* =====================
+   JOURNEY SECTION
+===================== */
+
+
+#journey {
+
+    position: relative;
+
+    overflow: hidden;
+
+}
+
+
+
+.journey-content {
+
+    position: relative;
+
+    z-index: 5;
+
+}
+
+
+
+#journey h2 {
+
+    font-family: "Cinzel", serif;
+
+    font-size: 90px;
+
+    letter-spacing: 10px;
+
+    margin-bottom: 70px;
+
+}
+
+
+
+.journey-cloud {
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: 1250px;
+
+    max-width: none;
+
+    opacity: 0.55;
+
+    z-index: 0;
+
+
+    -webkit-mask-image: radial-gradient(
+        ellipse at center,
+        black 30%,
+        rgba(0,0,0,0.75) 60%,
+        transparent 95%
+    );
+
+    mask-image: radial-gradient(
+        ellipse at center,
+        black 30%,
+        rgba(0,0,0,0.75) 60%,
+        transparent 95%
+    );
+
+}
