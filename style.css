@@ -7,15 +7,15 @@
 
 body {
 
-    background: white;
+    background: #ffffff;
 
-    color: #111;
+    color: #111111;
 
-    font-family: Georgia, "Times New Roman", serif;
-
-    line-height: 1.8;
+    font-family: "Alice", serif;
 
     text-align: center;
+
+    line-height: 1.8;
 
 }
 
@@ -25,7 +25,7 @@ section {
 
     min-height: 100vh;
 
-    padding: 120px 10%;
+    padding: 120px 12%;
 
     display: flex;
 
@@ -61,9 +61,9 @@ section {
 
     width: 100%;
 
-    max-width: 1400px;
+    max-width: 1200px;
 
-    opacity: 0.9;
+    opacity: 0.85;
 
     z-index: 0;
 
@@ -73,7 +73,7 @@ section {
 
 .logo {
 
-    width: 180px;
+    width: 170px;
 
     margin-bottom: 40px;
 
@@ -83,25 +83,33 @@ section {
 
 
 
-h1 {
+h1,
+h2,
+h3 {
 
-    font-size: clamp(50px, 8vw, 120px);
+    font-family: "Cinzel", serif;
 
-    font-weight: 400;
-
-    letter-spacing: 10px;
+    font-weight: 500;
 
 }
 
 
 
-h2 {
+.hero h1 {
 
-    font-size: clamp(30px, 4vw, 60px);
+    font-size: clamp(60px, 10vw, 130px);
 
-    font-weight: 300;
+    letter-spacing: 15px;
 
-    margin-bottom: 40px;
+}
+
+
+
+.hero h2 {
+
+    font-size: clamp(25px, 3vw, 45px);
+
+    margin-top: 20px;
 
 }
 
@@ -109,11 +117,21 @@ h2 {
 
 p {
 
-    max-width: 800px;
+    max-width: 850px;
 
     font-size: 22px;
 
-    margin: 20px auto;
+    margin: 25px auto;
+
+}
+
+
+
+.quote {
+
+    font-family: "Cinzel", serif;
+
+    font-size: 32px;
 
 }
 
@@ -123,13 +141,15 @@ p {
 
     margin-top: 50px;
 
-    padding: 15px 40px;
+    padding: 15px 45px;
 
-    border: 1px solid #c9a227;
+    border: 1px solid #c7a34a;
+
+    text-decoration: none;
 
     color: #111;
 
-    text-decoration: none;
+    font-family: "Cinzel", serif;
 
     letter-spacing: 3px;
 
@@ -139,7 +159,9 @@ p {
 
 .values p {
 
-    font-size: 32px;
+    font-size: 35px;
+
+    font-family: "Cinzel", serif;
 
 }
 
@@ -147,9 +169,21 @@ p {
 
 .statement h1 {
 
-    color: #c9a227;
+    font-size: clamp(45px, 7vw, 100px);
+
+    color: #c7a34a;
 
     letter-spacing: 5px;
+
+    margin: 20px;
+
+}
+
+
+
+.list p {
+
+    font-family: "Cinzel", serif;
 
 }
 
@@ -167,7 +201,7 @@ p {
 
 footer {
 
-    padding: 80px;
+    padding: 100px 20px;
 
 }
 
@@ -175,7 +209,9 @@ footer {
 
 footer h1 {
 
-    font-size: 100px;
+    font-size: 120px;
+
+    font-family: "Cinzel", serif;
 
 }
 
@@ -184,17 +220,28 @@ footer h1 {
 @media(max-width:700px){
 
 
-    p {
+section {
 
-        font-size:18px;
+padding:80px 20px;
 
-    }
+}
 
 
-    section {
+p {
 
-        padding:80px 20px;
+font-size:18px;
 
+}
+
+
+.hero h1 {
+
+letter-spacing:8px;
+
+}
+
+
+}
     }
 
 
