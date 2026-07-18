@@ -477,14 +477,14 @@ p {
 }
 #vision h3 {
 
-    margin-top: 80px;
+    margin-top: 120px !important;
 
-    margin-bottom: 40px;
+    margin-bottom: 50px !important;
 
-    font-family: "Cinzel", serif;
+    font-family: "Cinzel", serif !important;
 
-    font-size: 28px;
+    font-size: 32px !important;
 
-    letter-spacing: 3px;
+    letter-spacing: 4px;
 
 }
