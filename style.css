@@ -707,3 +707,18 @@ footer h1 {
     line-height: 1.8;
 
 }
+/* =====================
+   SIGNATURE FONT
+===================== */
+
+.signature {
+
+    font-family: "Alex Brush", cursive;
+
+    font-size: 48px;
+
+    line-height: 1.3;
+
+    letter-spacing: 2px;
+
+}
