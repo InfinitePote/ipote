@@ -251,18 +251,24 @@ STATEMENT
 
 .statement h1 {
 
-    font-size:clamp(65px,9vw,140px);
+    font-size:clamp(55px,7vw,110px);
 
     color:#1c1b18;
 
-    letter-spacing:8px;
+    letter-spacing:6px;
 
-    line-height:1.15;
+    line-height:1.25;
 
-    margin:20px 0;
+    margin:15px 0;
 
 }
 
+
+.statement h1:last-child {
+
+    color:#b28a35;
+
+}
 
 
 /* =====================
