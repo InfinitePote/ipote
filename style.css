@@ -496,6 +496,17 @@ FOOTER
 ===================== */
 
 
+.footer-logo{
+
+    width:250px;
+    max-width:70vw;
+
+    margin-bottom:45px;
+
+    opacity:0.9;
+
+}
+
 footer {
 
     padding:150px 20px 90px;
