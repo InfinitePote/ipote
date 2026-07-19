@@ -74,23 +74,23 @@ p {
 
 
 /* =====================
-SIGNATURE
+SIGNATURE STYLE
 ===================== */
 
 
 .signature {
 
-    font-family:"Alex Brush", cursive;
+    font-family:"Cinzel", serif;
 
-    font-size:55px;
+    font-size:34px;
 
-    line-height:1.3;
+    font-weight:500;
 
-    letter-spacing:1px;
+    letter-spacing:4px;
+
+    line-height:1.5;
 
 }
-
-
 
 
 
@@ -203,9 +203,13 @@ HERO
 
 .quote {
 
-    font-family:"Alex Brush", cursive;
+    font-family:"Cinzel", serif;
 
-    font-size:55px;
+    font-size:38px;
+
+    letter-spacing:4px;
+
+    margin-top:35px;
 
 }
 
@@ -490,15 +494,13 @@ JOURNEY
 
 #journey h4 {
 
-    margin-top:30px;
+    color:#3d382f;
 
     font-family:"Cinzel",serif;
 
-    font-size:28px;
+    font-size:26px;
 
-    color:#8c7650;
-
-    letter-spacing:4px;
+    letter-spacing:5px;
 
 }
 
@@ -533,25 +535,24 @@ footer h1 {
 
 .closing {
 
-    font-family:"Alex Brush",cursive;
+    font-family:"Cinzel", serif;
 
-    font-size:65px;
+    font-size:45px;
 
-    margin-top:40px;
+    letter-spacing:5px;
+
+    text-transform:uppercase;
 
 }
 
 
-
 .closing-sub {
 
-    font-family:"Cinzel",serif;
+    font-family:"Cinzel", serif;
 
     font-size:22px;
 
-    letter-spacing:3px;
-
-    margin-top:30px;
+    letter-spacing:4px;
 
 }
 
