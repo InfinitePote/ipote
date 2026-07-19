@@ -23,6 +23,7 @@ body {
 }
 
 
+
 /* =====================
 GENERAL
 ===================== */
@@ -73,20 +74,6 @@ p {
 
 
 
-#humanity h2 {
-
-    font-size:clamp(45px,6vw,90px);
-
-    letter-spacing:5px;
-
-    line-height:1.2;
-
-}
-
-
-
-
-
 /* =====================
 HERO
 ===================== */
@@ -134,7 +121,6 @@ HERO
         black 45%,
         transparent 75%
     );
-
 
     mask-image:radial-gradient(
         ellipse at center,
@@ -208,8 +194,6 @@ HERO
 
 
 
-
-
 /* =====================
 BUTTON
 ===================== */
@@ -235,35 +219,34 @@ BUTTON
 
 
 
-
-
 /* =====================
-VALUES
+HUMANITY
 ===================== */
 
 
-.values {
+#humanity h2 {
 
-    margin:50px 0;
+    font-size:clamp(45px,6vw,90px);
 
-}
+    letter-spacing:5px;
 
-
-.values p {
-
-    font-family:"Cinzel",serif;
-
-    font-size:38px;
+    line-height:1.2;
 
 }
-
-
 
 
 
 /* =====================
 STATEMENT
 ===================== */
+
+
+.statement {
+
+    min-height:80vh;
+
+}
+
 
 
 .statement h1 {
@@ -281,42 +264,6 @@ STATEMENT
 }
 
 
-.statement {
-
-    min-height:80vh;
-
-    justify-content:center;
-
-}
-
-
-
-.statement p {
-
-    font-size:24px;
-
-}
-
-
-
-.list {
-
-    margin:60px 0;
-
-}
-
-
-.list p {
-
-    font-family:"Cinzel",serif;
-
-    font-size:32px;
-
-}
-
-
-
-
 
 /* =====================
 POSTER
@@ -330,8 +277,6 @@ POSTER
     max-width:900px;
 
 }
-
-
 
 
 
@@ -369,7 +314,7 @@ VISION
 
 #vision h3 {
 
-    margin-top:150px;
+    margin-top:120px;
 
     margin-bottom:50px;
 
@@ -396,8 +341,6 @@ VISION
     color:#1c1b18;
 
 }
-
-
 
 
 
@@ -441,7 +384,6 @@ JOURNEY
         transparent 90%
     );
 
-
     mask-image:radial-gradient(
         ellipse at center,
         black 25%,
@@ -474,19 +416,9 @@ JOURNEY
 
 
 
-.journey-main {
-
-    font-family:"Cinzel",serif;
-
-    font-size:36px;
-
-}
-
-
-
 #journey h3 {
 
-    margin-top:120px;
+    margin-top:40px;
 
     font-size:42px;
 
@@ -498,17 +430,17 @@ JOURNEY
 
 #journey h4 {
 
-    color:#3d382f;
+    color:#1c1b18;
 
     font-family:"Cinzel",serif;
 
-    font-size:26px;
+    font-size:30px;
 
-    letter-spacing:5px;
+    letter-spacing:6px;
+
+    margin-top:40px;
 
 }
-
-
 
 
 
@@ -517,16 +449,17 @@ FOOTER
 ===================== */
 
 
-.footer-logo{
+.footer-logo {
 
     width:250px;
+
     max-width:70vw;
 
     margin-bottom:45px;
 
-    opacity:0.9;
-
 }
+
+
 
 footer {
 
@@ -536,44 +469,34 @@ footer {
 
 
 
-footer h1 {
-
-    font-family:"Cinzel",serif;
-
-    font-size:130px;
-
-    font-weight:400;
-
-}
-
-
-
 .closing {
 
     font-family:"Cinzel", serif;
 
-    font-size:48px;
+    font-size:42px;
 
-    letter-spacing:6px;
+    letter-spacing:7px;
 
     text-transform:uppercase;
 
-    line-height:1.4;
+    line-height:1.5;
 
 }
+
 
 
 .closing-sub {
 
     font-family:"Cinzel", serif;
 
-    font-size:26px;
+    font-size:20px;
 
-    letter-spacing:4px;
+    letter-spacing:5px;
 
-    margin-top:25px;
+    margin-top:30px;
 
 }
+
 
 
 .footer-links {
@@ -628,8 +551,6 @@ footer h1 {
 
 
 
-
-
 /* =====================
 MOBILE
 ===================== */
@@ -645,13 +566,11 @@ section {
 }
 
 
-
 p {
 
     font-size:18px;
 
 }
-
 
 
 .logo {
@@ -661,13 +580,11 @@ p {
 }
 
 
-
 .hero h1 {
 
     letter-spacing:8px;
 
 }
-
 
 
 #vision h2,
@@ -678,7 +595,6 @@ p {
 }
 
 
-
 .cloud-video,
 .journey-video {
 
@@ -687,18 +603,16 @@ p {
 }
 
 
-
 .closing {
 
-    font-size:45px;
+    font-size:30px;
 
 }
 
 
-
 .quote {
 
-    font-size:40px;
+    font-size:32px;
 
 }
 
