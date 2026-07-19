@@ -219,21 +219,6 @@ BUTTON
 
 
 
-/* =====================
-HUMANITY
-===================== */
-
-
-#humanity h2 {
-
-    font-size:clamp(45px,6vw,90px);
-
-    letter-spacing:5px;
-
-    line-height:1.2;
-
-}
-
 
 
 /* =====================
@@ -624,32 +609,4 @@ p {
 
 
 }
-/* =====================
-   TRANSITION BETWEEN IDEAS
-===================== */
 
-#humanity {
-    position:relative;
-    padding-bottom:180px;
-}
-
-
-#humanity::after {
-
-    content:"";
-
-    width:120px;
-
-    height:1px;
-
-    background:#c7a34a;
-
-    position:absolute;
-
-    bottom:80px;
-
-    left:50%;
-
-    transform:translateX(-50%);
-
-}
