@@ -23,9 +23,8 @@ body {
 }
 
 
-
 /* =====================
-   GENERAL
+GENERAL
 ===================== */
 
 
@@ -66,6 +65,8 @@ p {
 
     font-size:22px;
 
+    line-height:1.6;
+
     margin:25px auto;
 
 }
@@ -73,7 +74,28 @@ p {
 
 
 /* =====================
-   HERO
+SIGNATURE
+===================== */
+
+
+.signature {
+
+    font-family:"Alex Brush", cursive;
+
+    font-size:55px;
+
+    line-height:1.3;
+
+    letter-spacing:1px;
+
+}
+
+
+
+
+
+/* =====================
+HERO
 ===================== */
 
 
@@ -161,9 +183,9 @@ p {
 
 .hero h1 {
 
-    font-size:clamp(70px,12vw,150px);
+    font-size:clamp(80px,12vw,160px);
 
-    letter-spacing:15px;
+    letter-spacing:18px;
 
 }
 
@@ -173,7 +195,7 @@ p {
 
     font-size:clamp(25px,4vw,45px);
 
-    margin-top:20px;
+    margin-top:25px;
 
 }
 
@@ -181,11 +203,13 @@ p {
 
 .quote {
 
-    font-family:"Cinzel",serif;
+    font-family:"Alex Brush", cursive;
 
-    font-size:32px;
+    font-size:55px;
 
 }
+
+
 
 
 
@@ -196,9 +220,9 @@ BUTTON
 
 .button {
 
-    margin-top:50px;
+    margin-top:55px;
 
-    padding:15px 45px;
+    padding:15px 50px;
 
     border:1px solid #c7a34a;
 
@@ -208,9 +232,11 @@ BUTTON
 
     font-family:"Cinzel",serif;
 
-    letter-spacing:3px;
+    letter-spacing:4px;
 
 }
+
+
 
 
 
@@ -219,13 +245,22 @@ VALUES
 ===================== */
 
 
-.values p {
+.values {
 
-    font-size:35px;
+    margin:50px 0;
+
+}
+
+
+.values p {
 
     font-family:"Cinzel",serif;
 
+    font-size:38px;
+
 }
+
+
 
 
 
@@ -236,21 +271,42 @@ STATEMENT
 
 .statement h1 {
 
-    font-size:clamp(45px,7vw,100px);
+    font-size:clamp(55px,8vw,120px);
 
-    color:#c7a34a;
+    color:#b28a35;
 
-    letter-spacing:5px;
+    letter-spacing:6px;
+
+    line-height:1.2;
 
 }
 
+
+
+.statement p {
+
+    font-size:24px;
+
+}
+
+
+
+.list {
+
+    margin:60px 0;
+
+}
 
 
 .list p {
 
     font-family:"Cinzel",serif;
 
+    font-size:32px;
+
 }
+
+
 
 
 
@@ -269,6 +325,8 @@ POSTER
 
 
 
+
+
 /* =====================
 VISION
 ===================== */
@@ -276,9 +334,9 @@ VISION
 
 #vision h2 {
 
-    font-size:90px;
+    font-size:95px;
 
-    letter-spacing:10px;
+    letter-spacing:12px;
 
     margin-bottom:60px;
 
@@ -295,7 +353,7 @@ VISION
     border-radius:8px;
 
     box-shadow:
-    0 25px 50px rgba(70,50,30,.25);
+    0 30px 60px rgba(70,50,30,.25);
 
 }
 
@@ -303,11 +361,13 @@ VISION
 
 #vision h3 {
 
-    margin-top:120px;
+    margin-top:150px;
 
     margin-bottom:50px;
 
-    font-size:32px;
+    font-size:34px;
+
+    letter-spacing:4px;
 
 }
 
@@ -323,11 +383,13 @@ VISION
 
     font-size:22px;
 
-    color:#1c1b18;
-
     text-decoration:none;
 
+    color:#1c1b18;
+
 }
+
+
 
 
 
@@ -341,8 +403,6 @@ JOURNEY
     position:relative;
 
     overflow:hidden;
-
-    min-height:100vh;
 
 }
 
@@ -362,21 +422,21 @@ JOURNEY
 
     max-width:none;
 
-    opacity:.35;
+    opacity:.30;
 
     z-index:0;
 
 
     -webkit-mask-image:radial-gradient(
         ellipse at center,
-        black 30%,
+        black 25%,
         transparent 90%
     );
 
 
     mask-image:radial-gradient(
         ellipse at center,
-        black 30%,
+        black 25%,
         transparent 90%
     );
 
@@ -390,17 +450,15 @@ JOURNEY
 
     z-index:5;
 
-    max-width:900px;
-
 }
 
 
 
 #journey h2 {
 
-    font-size:90px;
+    font-size:95px;
 
-    letter-spacing:10px;
+    letter-spacing:12px;
 
     margin-bottom:80px;
 
@@ -412,7 +470,7 @@ JOURNEY
 
     font-family:"Cinzel",serif;
 
-    font-size:34px;
+    font-size:36px;
 
 }
 
@@ -420,9 +478,11 @@ JOURNEY
 
 #journey h3 {
 
-    margin-top:100px;
+    margin-top:120px;
 
-    font-size:38px;
+    font-size:42px;
+
+    letter-spacing:5px;
 
 }
 
@@ -430,13 +490,19 @@ JOURNEY
 
 #journey h4 {
 
-    margin-top:25px;
+    margin-top:30px;
 
-    font-size:30px;
+    font-family:"Cinzel",serif;
 
-    color:#c7a34a;
+    font-size:28px;
+
+    color:#8c7650;
+
+    letter-spacing:4px;
 
 }
+
+
 
 
 
@@ -447,7 +513,7 @@ FOOTER
 
 footer {
 
-    padding:140px 20px 80px;
+    padding:150px 20px 90px;
 
 }
 
@@ -455,7 +521,11 @@ footer {
 
 footer h1 {
 
-    font-size:120px;
+    font-family:"Cinzel",serif;
+
+    font-size:130px;
+
+    font-weight:400;
 
 }
 
@@ -463,11 +533,9 @@ footer h1 {
 
 .closing {
 
-    font-family:"Cinzel",serif;
+    font-family:"Alex Brush",cursive;
 
-    font-size:42px;
-
-    letter-spacing:3px;
+    font-size:65px;
 
     margin-top:40px;
 
@@ -477,11 +545,13 @@ footer h1 {
 
 .closing-sub {
 
-    font-family:"Great Vibes",cursive;
+    font-family:"Cinzel",serif;
 
-    font-size:55px;
+    font-size:22px;
 
-    margin-top:25px;
+    letter-spacing:3px;
+
+    margin-top:30px;
 
 }
 
@@ -493,9 +563,9 @@ footer h1 {
 
     justify-content:center;
 
-    gap:45px;
+    gap:50px;
 
-    margin-top:70px;
+    margin-top:80px;
 
     flex-wrap:wrap;
 
@@ -506,6 +576,10 @@ footer h1 {
 .footer-links a {
 
     font-family:"Cinzel",serif;
+
+    font-size:18px;
+
+    letter-spacing:3px;
 
     text-decoration:none;
 
@@ -527,11 +601,13 @@ footer h1 {
 
     margin-top:70px;
 
-    font-size:16px;
+    font-size:15px;
 
-    opacity:.5;
+    opacity:.6;
 
 }
+
+
 
 
 
@@ -545,88 +621,49 @@ MOBILE
 
 section {
 
-padding:80px 20px;
+    padding:80px 20px;
 
 }
+
 
 
 p {
 
-font-size:18px;
+    font-size:18px;
 
 }
+
 
 
 .logo {
 
-width:240px;
+    width:240px;
 
 }
+
 
 
 .hero h1 {
 
-letter-spacing:8px;
+    letter-spacing:8px;
 
 }
+
 
 
 #vision h2,
 #journey h2 {
 
-font-size:55px;
+    font-size:55px;
 
 }
+
 
 
 .cloud-video,
 .journey-video {
 
-width:900px;
-
-}
-
-
-.closing {
-
-font-size:30px;
-
-}
-
-
-.closing-sub {
-
-font-size:40px;
-
-}
-
-
-}
-
-/* =====================
-   FOOTER
-===================== */
-
-footer {
-
-    padding: 140px 20px 80px;
-
-    text-align: center;
-
-}
-
-
-footer h1 {
-
-    font-family: "Cinzel", serif;
-
-    font-size: 130px;
-
-    font-weight: 400;
-
-    margin-bottom: 40px;
-
-    color: #1c1b18;
+    width:900px;
 
 }
 
@@ -634,91 +671,17 @@ footer h1 {
 
 .closing {
 
-    font-family: "Cinzel", serif;
-
-    font-size: 32px;
-
-    letter-spacing: 3px;
-
-    margin-bottom: 20px;
+    font-size:45px;
 
 }
 
 
 
-.closing-sub {
+.quote {
 
-    font-family: "Great Vibes", cursive;
-
-    font-size: 42px;
-
-    margin-bottom: 70px;
+    font-size:40px;
 
 }
 
-
-
-.footer-links {
-
-    display: flex;
-
-    justify-content: center;
-
-    gap: 45px;
-
-    flex-wrap: wrap;
-
-}
-
-
-
-.footer-links a {
-
-    font-family: "Cinzel", serif;
-
-    font-size: 18px;
-
-    letter-spacing: 3px;
-
-    text-decoration: none;
-
-    color: #1c1b18;
-
-}
-
-
-
-.footer-links a:hover {
-
-    color: #c7a34a;
-
-}
-
-
-
-.copyright {
-
-    margin-top: 60px;
-
-    font-size: 15px;
-
-    opacity: 0.7;
-
-    line-height: 1.8;
-
-}
-/* =====================
-   SIGNATURE FONT
-===================== */
-
-.signature {
-
-    font-family: "Alex Brush", cursive;
-
-    font-size: 48px;
-
-    line-height: 1.3;
-
-    letter-spacing: 2px;
 
 }
